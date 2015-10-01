@@ -22,9 +22,9 @@ import zipfile
 import shutil
 
 # Settings:
-data_dir='../src'
+data_dir='../data_all'
 file_save_dir = os.path.join(data_dir,'raw_data')
-experiment_list_file_name = '../src/LIMS_id_list.p' 
+experiment_list_file_name = '../data_all/LIMS_id_list.p' 
 
 # Get list of experiments:
 if os.path.isfile(experiment_list_file_name):

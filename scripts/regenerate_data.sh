@@ -23,6 +23,8 @@
 # Generate connectivity data
 #
 
+mkdir -p ../data_all
+
 echo "Refreshing structure information"
 python refresh_structure_json.py
 echo "    Done."

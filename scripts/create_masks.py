@@ -25,7 +25,7 @@ from friday_harbor.structure import Ontology
 from friday_harbor.experiment import ExperimentManager
 import os
 
-data_dir='../src'
+data_dir='../data_all'
 
 # Save off the nonzero mask:
 ann=Annotation.structure_annotation().from_hdf5(os.path.join(data_dir,'grid_annotation/gridAnnotation.hdf5'))

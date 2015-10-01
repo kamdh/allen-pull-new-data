@@ -24,7 +24,7 @@ from utilities import *
 
 
 # Settings:
-raw_data_dir = '../src/raw_data'
+raw_data_dir = '../data_all/raw_data'
 save_file_name_prefix = 'density_energy_injection'
 
 # Extract volumes of PD and injection sites:

@@ -20,7 +20,7 @@ import h5py
 from friday_harbor.experiment import ExperimentManager
 import os
 
-data_dir='../src'
+data_dir='../data_all'
 
 # Create injection masks:
 f_proj = h5py.File(os.path.join(data_dir,'projection_density.hdf5'), 'w')
